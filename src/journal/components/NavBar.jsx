@@ -5,7 +5,7 @@ import { startLogout } from "../../store/auth/thunks";
 
 export const NavBar = ({ drawerWidth = 240 }) => {
 
-    const dispatch = useDispatch()
+  const dispatch = useDispatch()
 
     const onLogout = () => {
       dispatch(startLogout())
